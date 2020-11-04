@@ -1,0 +1,6 @@
+F:\VSC++\C++\职工管理系统\Debug\职工管理系统.pdb
+F:\VSC++\C++\Debug\职工管理系统.pdb
+E:\程序\VSC++\C++\Debug\职工管理系统.pdb
+E:\程序\VSC++\C++\职工管理系统\Debug\职工管理系统.pdb
+E:\程序\VSC++\C++黑马\C++\Debug\职工管理系统.pdb
+E:\程序\VSC++\C++黑马\C++\职工管理系统\Debug\职工管理系统.pdb

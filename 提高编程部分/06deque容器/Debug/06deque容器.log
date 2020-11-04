@@ -1,0 +1,6 @@
+﻿  06 deque排序.cpp
+  07 案例-评委打分.cpp
+C:\Users\YY\source\repos\C++提高编程\06deque容器\07 案例-评委打分.cpp(62,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\YY\source\repos\C++提高编程\06deque容器\07 案例-评委打分.cpp(76,20): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+  06deque容器.vcxproj -> C:\Users\YY\source\repos\C++提高编程\Debug\06deque容器.exe

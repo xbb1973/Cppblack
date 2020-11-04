@@ -1,0 +1,59 @@
+﻿  08 set存放自定义数据类型.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xutility(1516,1): error C3848: 具有类型“const comparePerson”的表达式会丢失一些 const-volatile 限定符以调用“bool comparePerson::operator ()(const Person &,const Person &)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xutility(1515): message : 查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<const comparePerson&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)”的引用
+          with
+          [
+              _Kty=Person,
+              _Keyty=Person,
+              _Pr=const comparePerson &,
+              _Ty1=const Person &,
+              _Ty2=const Person &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(998): message : 查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=comparePerson,
+              _Key=Person,
+              _Keyty=Person
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(1005): message : 查看对正在编译的函数 模板 实例化“std::_Tree_find_result<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Find_lower_bound<_Key>(const _Keyty &) const”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=comparePerson,
+              _Key=Person,
+              _Keyty=Person
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(1331): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const Person&>(const Person &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=comparePerson
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xtree(1331): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_node<Person,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::_Emplace<const Person&>(const Person &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Person>,
+              _Kty=Person,
+              _Pr=comparePerson
+          ]
+C:\Users\YY\source\repos\C++提高编程\10 set multiset容器\08 set存放自定义数据类型.cpp(35): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Person>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const Person &)”的引用
+          with
+          [
+              _Kty=Person,
+              _Pr=comparePerson,
+              _Alloc=std::allocator<Person>
+          ]
+C:\Users\YY\source\repos\C++提高编程\10 set multiset容器\08 set存放自定义数据类型.cpp(35): message : 查看对正在编译的函数 模板 实例化“std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<Person>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert<false,0>(const Person &)”的引用
+          with
+          [
+              _Kty=Person,
+              _Pr=comparePerson,
+              _Alloc=std::allocator<Person>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xutility(1516,5): error C2056: 非法表达式
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xutility(1516,39): error C2056: 非法表达式

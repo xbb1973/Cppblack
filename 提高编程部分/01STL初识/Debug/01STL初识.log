@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(01STL初识.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  01 STL初识-vector存放内置数据类型.cpp
+  02STL初识-vector存放自定义数据类型.cpp
+  03STL初识-容器嵌套容器.cpp
+  正在生成代码...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+C:\Users\YY\source\repos\C++提高编程\Debug\03STL初识.exe : fatal error LNK1120: 1 个无法解析的外部命令
